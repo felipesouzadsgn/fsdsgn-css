@@ -1,0 +1,28 @@
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.nav {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__list {
+        display: flex;
+        align-items: center;
+        column-gap: 2rem;
+    }
+    &__link {
+        color: white;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    &__logo {
+        &-svg {
+            width: 48px;
+        }
+    }
+}

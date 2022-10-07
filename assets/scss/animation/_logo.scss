@@ -1,0 +1,49 @@
+.F,
+.S {
+    // animation: logo-v2 3s ease infinite alternate;
+    fill-opacity: 0;
+    stroke-dasharray: 1038;
+    stroke-dashoffset: 0;
+    stroke-linecap: round;
+    stroke-width: 4;
+    animation: logo-v2 10s linear forwards;
+}
+
+@keyframes logo {
+    0% {
+        fill-opacity: 0;
+        stroke-dasharray: 0 1000;
+    }
+    25% {
+        fill-opacity: 0;
+        stroke-dasharray: 1000 0;
+    }
+    75%,
+    100% {
+        fill-opacity: 1;
+        stroke-opacity: 0;
+        stroke-dasharray: 1000 0;
+    }
+}
+
+@keyframes logo-v2 {
+    0% {
+        fill-opacity: 0;
+        stroke-dashoffset: 0;
+    }
+    40% {
+        fill-opacity: 0;
+        stroke-dashoffset: 1038;
+    }
+    80% {
+        fill-opacity: 0;
+        stroke-dashoffset: 2076;
+        stroke-width: 4;
+    }
+    85%,
+    100% {
+        stroke-dashoffset: 2076;
+        fill-opacity: 1;
+        stroke-width: 0;
+    }
+}

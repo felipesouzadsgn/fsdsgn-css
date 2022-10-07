@@ -1,0 +1,31 @@
+.container {
+    max-width: $container-l;
+    margin: 0 auto;
+    padding: 128px 24px;
+    overflow: hidden;
+    // clearfix
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    @include breakpoint(s) {
+        flex-direction: column;
+        padding: 96px 16px;
+    }
+}
+
+.c {
+    // clearfix
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.c-h {
+    @include breakpoint(s) {
+        display: none;
+    }
+}
