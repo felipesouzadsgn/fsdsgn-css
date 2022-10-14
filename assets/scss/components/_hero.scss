@@ -17,6 +17,12 @@
     }
     &__data {
         text-align: center;
+        &-title {
+            margin-bottom: 1rem;
+        }
+        &-description {
+            font-size: 2rem;
+        }
     }
     &__social {
         max-width: 300px;
@@ -24,6 +30,6 @@
     &__bottom {
         position: absolute;
         bottom: 24px;
-        width: 48px;
+        width: 32px;
     }
 }

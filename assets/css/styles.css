@@ -1,6 +1,5 @@
 /*======= CONFIG =======*/
 /*======= SCREEN =======*/
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
 .c-1 {
   width: calc(8.3333333333% - 32px);
   margin: 16px;
@@ -252,13 +251,14 @@
 
 html {
   scroll-behavior: smooth;
+  background: #00142A;
 }
 
 body {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: linear-gradient(225deg, #00142A 0%, #00060B 100%);
+  font-family: "Raleway", sans-serif;
 }
 
 svg,
@@ -1801,14 +1801,14 @@ a {
 
 /*======= TYPOGRAPHY =======*/
 .h0 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 120px;
   line-height: 120%;
   font-weight: 500;
 }
 @media screen and (max-width: 960px) {
   .h0 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 88px;
     line-height: 120%;
     font-weight: 500;
@@ -1816,7 +1816,7 @@ a {
 }
 @media screen and (max-width: 620px) {
   .h0 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 32px;
     line-height: 120%;
     font-weight: 500;
@@ -1826,14 +1826,14 @@ a {
 h1 {
   color: #D8DBE3;
   z-index: 5;
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 80px;
   line-height: 100%;
   font-weight: 500;
 }
 @media screen and (max-width: 960px) {
   h1 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 56px;
     line-height: 110%;
     font-weight: 500;
@@ -1841,7 +1841,7 @@ h1 {
 }
 @media screen and (max-width: 620px) {
   h1 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 48px;
     line-height: 120%;
     font-weight: 500;
@@ -1850,14 +1850,14 @@ h1 {
 
 h2 {
   color: #D8DBE3;
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 64px;
   line-height: 110%;
   font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   h2 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 40px;
     line-height: 120%;
     font-weight: 300;
@@ -1865,7 +1865,7 @@ h2 {
 }
 @media screen and (max-width: 620px) {
   h2 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 36px;
     line-height: 120%;
     font-weight: 300;
@@ -1874,14 +1874,14 @@ h2 {
 
 h3 {
   color: #D8DBE3;
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 48px;
   line-height: 120%;
   font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   h3 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 32px;
     line-height: 120%;
     font-weight: 300;
@@ -1889,7 +1889,7 @@ h3 {
 }
 @media screen and (max-width: 620px) {
   h3 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 28px;
     line-height: 130%;
     font-weight: 300;
@@ -1898,14 +1898,14 @@ h3 {
 
 h4 {
   color: #D8DBE3;
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 36px;
   line-height: 120%;
   font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   h4 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 28px;
     line-height: 130%;
     font-weight: 300;
@@ -1913,7 +1913,7 @@ h4 {
 }
 @media screen and (max-width: 620px) {
   h4 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 20px;
     line-height: 140%;
     font-weight: 300;
@@ -1922,14 +1922,14 @@ h4 {
 
 h5 {
   color: #D8DBE3;
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 24px;
   line-height: 140%;
   font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   h5 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 20px;
     line-height: 140%;
     font-weight: 300;
@@ -1938,14 +1938,14 @@ h5 {
 
 h6 {
   color: #D8DBE3;
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 150%;
   font-weight: 100;
 }
 @media screen and (max-width: 960px) {
   h6 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 100;
@@ -1953,14 +1953,14 @@ h6 {
 }
 
 .h7 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 14px;
   line-height: 150%;
   font-weight: 100;
 }
 @media screen and (max-width: 960px) {
   .h7 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 14px;
     line-height: 150%;
     font-weight: 100;
@@ -1970,14 +1970,14 @@ h6 {
 p {
   letter-spacing: 0px;
   color: #717274;
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 200;
 }
 @media screen and (max-width: 960px) {
   p {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 200;
@@ -1985,7 +1985,7 @@ p {
 }
 @media screen and (max-width: 620px) {
   p {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 14px;
     line-height: 26px;
     font-weight: 200;
@@ -1998,14 +1998,14 @@ p {
 }
 
 .p1 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 30px;
   font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   .p1 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     line-height: 30px;
     font-weight: 300;
@@ -2013,7 +2013,7 @@ p {
 }
 @media screen and (max-width: 620px) {
   .p1 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: 300;
@@ -2021,14 +2021,14 @@ p {
 }
 
 .p2 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 30px;
   font-weight: 200;
 }
 @media screen and (max-width: 960px) {
   .p2 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 200;
@@ -2036,14 +2036,14 @@ p {
 }
 
 .p3 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 200;
 }
 @media screen and (max-width: 960px) {
   .p3 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 200;
@@ -2051,14 +2051,14 @@ p {
 }
 
 .p4 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 200;
 }
 @media screen and (max-width: 960px) {
   .p4 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 14px;
     line-height: 20px;
     font-weight: 200;
@@ -2066,14 +2066,14 @@ p {
 }
 
 .p5 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 13px;
   line-height: 20px;
   font-weight: 200;
 }
 @media screen and (max-width: 960px) {
   .p5 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 13px;
     line-height: 20px;
     font-weight: 200;
@@ -2104,14 +2104,14 @@ span {
   color: #E8EBF0;
   letter-spacing: 1px;
   text-transform: none;
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 80px;
   line-height: 100%;
   font-weight: 500;
 }
 @media screen and (max-width: 960px) {
   .letter-h1 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 56px;
     line-height: 110%;
     font-weight: 500;
@@ -2120,14 +2120,14 @@ span {
 
 strong {
   color: #06090F;
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 30px;
   font-weight: 200;
 }
 @media screen and (max-width: 960px) {
   strong {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 200;
@@ -2152,7 +2152,7 @@ b {
 
 .h-xl {
   color: #E8EBF0;
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 120px;
   line-height: 120%;
   font-weight: 500;
@@ -2160,7 +2160,7 @@ b {
 }
 @media screen and (max-width: 960px) {
   .h-xl {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 88px;
     line-height: 120%;
     font-weight: 500;
@@ -2170,7 +2170,7 @@ b {
 
 .h-l {
   color: #E8EBF0;
-  font-family: "Rubik", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 120px;
   line-height: 120%;
   font-weight: 500;
@@ -2178,7 +2178,7 @@ b {
 }
 @media screen and (max-width: 960px) {
   .h-l {
-    font-family: "Rubik", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 88px;
     line-height: 120%;
     font-weight: 500;
@@ -2312,13 +2312,236 @@ b {
 .hero__data {
   text-align: center;
 }
+.hero__data-title {
+  margin-bottom: 1rem;
+}
+.hero__data-description {
+  font-size: 2rem;
+}
 .hero__social {
   max-width: 300px;
 }
 .hero__bottom {
   position: absolute;
   bottom: 24px;
+  width: 32px;
+}
+
+.jobs {
+  width: 100%;
+}
+.jobs__data {
+  text-align: center;
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+
+.job {
+  display: flex;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1214px;
+  height: 300px;
+  position: relative;
+  border-top: 1px solid #183558;
+  border-bottom: 1px solid #183558;
+}
+.job__img {
   width: 48px;
+}
+.job__name {
+  font-size: 48px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+.job__description {
+  max-width: 400px;
+  margin-top: 12px;
+}
+.job:hover::after {
+  right: 0;
+}
+.job__data {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.job__content {
+  flex: 1;
+  background-color: transparent;
+  position: relative;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.job__content span {
+  font-size: 24px;
+}
+.job__view {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;
+}
+.job__view-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.job-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 auto;
+  max-width: 1214px;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  border-bottom: 1px solid #183558;
+  border-top: 1px solid #183558;
+  margin-bottom: 48px;
+}
+.job-reverse__img {
+  width: 48px;
+}
+.job-reverse__name {
+  font-size: 48px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+.job-reverse__description {
+  max-width: 400px;
+  margin-top: 12px;
+}
+.job-reverse:hover::after {
+  right: 50%;
+}
+.job-reverse__data {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.job-reverse__content {
+  flex: 1;
+  background-color: transparent;
+  position: relative;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.job-reverse__content span {
+  font-size: 24px;
+}
+.job-reverse__view {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;
+}
+.job-reverse__view-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.job-reverse__view-link i {
+  color: white;
+}
+
+.rafael-moura::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 50%;
+  background-color: #102C6C;
+  background-image: url("../svg/logo-rafael-moura.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: 1.4s ease;
+}
+
+.spider-man::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 0%;
+  background-color: #B21317;
+  background-image: url("../svg/spider-man.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: 1.4s ease;
+}
+
+.nubank::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 50%;
+  background-color: #891caa;
+  background-image: url("../svg/nubank.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: 1.4s ease;
+}
+
+.feedback {
+  width: 100%;
+}
+.feedback__data {
+  text-align: center;
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+.feedback__container {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  gap: 32px;
+  width: 100%;
+  max-width: 1214px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.feedback__card {
+  width: 386px;
+  border: 1px solid #183558;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.about {
+  margin-top: 500px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.about__img {
+  position: absolute;
+  width: 90%;
+}
+.about__data {
+  text-align: center;
+  max-width: 514px;
 }
 
 /*# sourceMappingURL=styles.css.map */
