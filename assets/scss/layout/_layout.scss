@@ -1,31 +1,26 @@
-.container {
-    max-width: $container-l;
-    margin: 0 auto;
-    padding: 128px 24px;
-    overflow: hidden;
-    // clearfix
-    &::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    @include breakpoint(s) {
-        flex-direction: column;
-        padding: 96px 16px;
-    }
-}
+.section {
+    width: 100%;
+    &__data {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 140px;
+        margin-bottom: 140px;
+        max-width: 500px;
 
-.c {
-    // clearfix
-    &::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}
+        &-category {
+            font-size: 24px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: $secondary-light;
+        }
 
-.c-h {
-    @include breakpoint(s) {
-        display: none;
+        &-title {
+            font-size: 48px;
+            font-weight: 400;
+        }
+
+        &-description {
+            color: #ACB2BB;
+        }
     }
 }

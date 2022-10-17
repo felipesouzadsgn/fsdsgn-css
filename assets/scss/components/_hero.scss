@@ -6,6 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
     &__container {
         width: 100%;
         display: flex;
@@ -18,10 +19,13 @@
     &__data {
         text-align: center;
         &-title {
+            font-size: 64px;
+            font-weight: 600;
             margin-bottom: 1rem;
         }
         &-description {
-            font-size: 2rem;
+            font-size: 32px;
+            color: #5390E3;
         }
     }
     &__social {
