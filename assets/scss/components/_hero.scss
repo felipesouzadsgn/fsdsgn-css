@@ -170,11 +170,9 @@
         width: 400px;
         height: 458px;
         position: relative;
-        border: 1px solid red;
         overflow: hidden;
 
         &-links {
-            border: 1px solid red;
             position: absolute;
             right: 0%;
             transform: translateX(50%);
