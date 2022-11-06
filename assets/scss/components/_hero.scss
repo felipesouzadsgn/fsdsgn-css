@@ -1,59 +1,35 @@
 .hero {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  &__container {
+    position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-  }
-
-  &__data {
-    width: 100%;
-    text-align: center;
-
-    &-title {
-      font-size: 64px;
-      font-weight: 600;
-      margin-bottom: 1rem;
+    justify-content: center;
+    overflow: hidden;
+    &__container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
-
-    &-description {
-      font-size: 32px;
-      color: #5390e3;
+    &__data {
+        width: 100%;
+        text-align: center;
+        &-title {
+            font-size: 64px;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        &-description {
+            font-size: 32px;
+            color: #5390e3;
+        }
     }
-  }
-
-  &__bottom {
-    position: absolute;
-    bottom: 24px;
-    width: 32px;
-  }
-}
-
-@keyframes r {
-  to {
-    transform: rotate(-360deg);
-  }
-
-  from {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes ri {
-  to {
-    transform: rotate(360deg);
-  }
-
-  from {
-    transform: rotate(-360deg);
-  }
+    &__bottom {
+        position: absolute;
+        bottom: 24px;
+        width: 32px;
+    }
 }

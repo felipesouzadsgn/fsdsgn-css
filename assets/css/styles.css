@@ -88,6 +88,22 @@ a {
   fill: orange;
 }
 
+@keyframes r {
+  to {
+    transform: rotate(-360deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+}
+@keyframes ri {
+  to {
+    transform: rotate(360deg);
+  }
+  from {
+    transform: rotate(-360deg);
+  }
+}
 /*======= LAYOUT =======*/
 .section {
   width: 100%;
@@ -121,8 +137,8 @@ a {
 }
 
 .nav {
-  height: 4rem;
   display: flex;
+  height: 70px;
   justify-content: center;
   align-items: center;
 }
@@ -149,6 +165,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 .hero__container {
   width: 100%;
@@ -176,22 +193,6 @@ a {
   width: 32px;
 }
 
-@keyframes r {
-  to {
-    transform: rotate(-360deg);
-  }
-  from {
-    transform: rotate(360deg);
-  }
-}
-@keyframes ri {
-  to {
-    transform: rotate(360deg);
-  }
-  from {
-    transform: rotate(-360deg);
-  }
-}
 .hero__skills {
   position: relative;
   width: 50%;
@@ -216,10 +217,12 @@ a {
 .hero__circle-lg {
   width: 458px;
   height: 458px;
+  animation: r 65s linear infinite;
 }
 .hero__circle-md {
   width: 258px;
   height: 258px;
+  animation: ri 35s linear infinite;
 }
 .hero__circle-sm {
   width: 70px;
@@ -308,6 +311,7 @@ a {
   border: 0.5px solid #5390E3;
   border-radius: 50%;
   transition: 0.3s ease;
+  animation: ri 65s linear infinite;
 }
 .lg-1:hover,
 .lg-2:hover,
@@ -355,6 +359,7 @@ a {
   border: 1px solid #5390E3;
   border-radius: 50%;
   transition: 0.3s ease;
+  animation: r 75s linear infinite;
 }
 .md-1:hover,
 .md-2:hover,
@@ -369,7 +374,6 @@ a {
   height: 100%;
   display: flex;
   align-items: center;
-  overflow: hidden;
 }
 .hero__social-links {
   position: absolute;
@@ -387,6 +391,7 @@ a {
 .hero__social-lg {
   width: 458px;
   height: 458px;
+  animation: r 65s linear infinite;
 }
 .hero__social-md {
   width: 258px;
@@ -463,6 +468,7 @@ a {
   color: #5390E3;
   border-radius: 50%;
   border: 0.5px solid #5390E3;
+  animation: ri 65s linear infinite;
 }
 .l-1:hover,
 .l-2:hover,
@@ -501,12 +507,12 @@ a {
 
 .job {
   display: flex;
-  margin-bottom: 48px;
+  margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   max-width: 1214px;
-  height: 300px;
+  height: 270px;
   position: relative;
   border-top: 1px solid #183558;
   border-bottom: 1px solid #183558;
@@ -567,11 +573,11 @@ a {
   margin: 0 auto;
   max-width: 1214px;
   width: 100%;
-  height: 300px;
+  height: 270px;
   position: relative;
   border-bottom: 1px solid #183558;
   border-top: 1px solid #183558;
-  margin-bottom: 48px;
+  margin-bottom: 100px;
 }
 .job-reverse__img {
   width: 48px;
@@ -692,7 +698,7 @@ a {
 .about {
   margin-top: 140px;
   width: 100%;
-  height: 50vh;
+  height: 110vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -725,72 +731,49 @@ a {
   border-radius: 50%;
   border: 1px solid red;
   position: relative;
+  animation: r 95s alternate infinite;
 }
 .about__circle-lg .c-1 {
   width: 80px;
   height: 80px;
-  border: 1px solid red;
-  position: absolute;
-  border-radius: 50%;
   top: -3%;
 }
 .about__circle-lg .c-2 {
   width: 80px;
   height: 80px;
-  border: 1px solid red;
-  position: absolute;
-  border-radius: 50%;
   bottom: -3%;
 }
 .about__circle-lg .c-3 {
   width: 80px;
   height: 80px;
-  border: 1px solid red;
-  position: absolute;
-  border-radius: 50%;
   right: -3%;
 }
 .about__circle-lg .c-4 {
   width: 80px;
   height: 80px;
-  border: 1px solid red;
-  position: absolute;
-  border-radius: 50%;
   left: -3%;
 }
 .about__circle-lg .c-5 {
   width: 80px;
   height: 80px;
-  border: 1px solid red;
-  position: absolute;
-  border-radius: 50%;
   left: 11%;
   top: 11%;
 }
 .about__circle-lg .c-6 {
   width: 80px;
   height: 80px;
-  border: 1px solid red;
-  position: absolute;
-  border-radius: 50%;
   right: 11%;
   top: 11%;
 }
 .about__circle-lg .c-7 {
   width: 80px;
   height: 80px;
-  border: 1px solid red;
-  position: absolute;
-  border-radius: 50%;
   right: 11%;
   bottom: 11%;
 }
 .about__circle-lg .c-8 {
   width: 80px;
   height: 80px;
-  border: 1px solid red;
-  position: absolute;
-  border-radius: 50%;
   left: 11%;
   bottom: 11%;
 }
@@ -804,36 +787,24 @@ a {
 .about__circle-md .c-9 {
   width: 80px;
   height: 80px;
-  border: 1px solid red;
-  position: absolute;
-  border-radius: 50%;
   left: 11%;
   bottom: 11%;
 }
 .about__circle-md .c-10 {
   width: 80px;
   height: 80px;
-  border: 1px solid red;
-  position: absolute;
-  border-radius: 50%;
   right: 11%;
   bottom: 11%;
 }
 .about__circle-md .c-11 {
   width: 80px;
   height: 80px;
-  border: 1px solid red;
-  position: absolute;
-  border-radius: 50%;
   right: 11%;
   top: 11%;
 }
 .about__circle-md .c-16 {
   width: 80px;
   height: 80px;
-  border: 1px solid red;
-  position: absolute;
-  border-radius: 50%;
   left: 11%;
   top: 11%;
 }
@@ -845,18 +816,54 @@ a {
   border: 1px solid red;
 }
 
-.c-1, .c-2, .c-3, .c-4, .c-9, .c-10, .c-16, .c-11 {
+.c-1,
+.c-2,
+.c-3,
+.c-4,
+.c-9,
+.c-10,
+.c-16,
+.c-11 {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: ri 95s alternate infinite;
 }
-.c-1 img, .c-2 img, .c-3 img, .c-4 img, .c-9 img, .c-10 img, .c-16 img, .c-11 img {
+.c-1 img,
+.c-2 img,
+.c-3 img,
+.c-4 img,
+.c-9 img,
+.c-10 img,
+.c-16 img,
+.c-11 img {
   width: 40px;
 }
 
-.c-5 img, .c-6 img, .c-7 img, .c-8 img {
+.c-5,
+.c-6,
+.c-7,
+.c-8 {
+  position: absolute;
+  border-radius: 50%;
+  animation: ri 95s alternate infinite;
+}
+.c-5 img,
+.c-6 img,
+.c-7 img,
+.c-8 img {
   width: 100%;
   height: 100%;
+}
+
+.contact__content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

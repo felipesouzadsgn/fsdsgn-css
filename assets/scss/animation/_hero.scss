@@ -1,0 +1,17 @@
+@keyframes r {
+    to {
+        transform: rotate(-360deg);
+    }
+    from {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes ri {
+    to {
+        transform: rotate(360deg);
+    }
+    from {
+        transform: rotate(-360deg);
+    }
+}

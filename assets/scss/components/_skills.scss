@@ -1,115 +1,106 @@
 .hero {
-  &__skills {
-    position: relative;
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
-  &__circle {
-    position: absolute;
-    left: 0%;
-    transform: translateX(-50%);
-
-    &-lg, &-md {
-      border: 0.3px solid $secondary-light;
-      border-radius: 50%;
-
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-
-      font-size: 14px;
+    &__skills {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
     }
-
-    &-lg {
-      width: 458px;
-      height: 458px;
+    &__circle {
+        position: absolute;
+        left: 0%;
+        transform: translateX(-50%);
+        &-lg,
+        &-md {
+            border: 0.3px solid $secondary-light;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            font-size: 14px;
+        }
+        &-lg {
+            width: 458px;
+            height: 458px;
+            animation: r 65s linear infinite;
+        }
+        &-md {
+            width: 258px;
+            height: 258px;
+            animation: ri 35s linear infinite;
+        }
+        &-sm {
+            width: 70px;
+            height: 70px;
+            background: $primary-normal;
+            border-radius: 50%;
+        }
     }
-
-    &-md {
-      width: 258px;
-      height: 258px;
-    }
-
-    &-sm {
-      width: 70px;
-      height: 70px;
-      background: $primary-normal;
-      border-radius: 50%;
-    }
-  }
 }
 
 .lg-1 {
-  position: absolute;
-  top: -5%;
-  right: 24%;
-  width: 80px;
-  height: 80px;
+    position: absolute;
+    top: -5%;
+    right: 24%;
+    width: 80px;
+    height: 80px;
 }
 
 .lg-2 {
-  position: absolute;
-  top: 21%;
-  right: -4%;
-  width: 80px;
-  height: 80px;
+    position: absolute;
+    top: 21%;
+    right: -4%;
+    width: 80px;
+    height: 80px;
 }
 
 .lg-3 {
-  position: absolute;
-  bottom: 20%;
-  right: -8%;
-
-  width: 105px;
-  height: 105px;
+    position: absolute;
+    bottom: 20%;
+    right: -8%;
+    width: 105px;
+    height: 105px;
 }
 
 .lg-4 {
-  position: absolute;
-  bottom: -5%;
-  right: 22%;
-
-  width: 80px;
-  height: 80px;
-
+    position: absolute;
+    bottom: -5%;
+    right: 22%;
+    width: 80px;
+    height: 80px;
 }
-.lg-5 {
-  position: absolute;
-  bottom: -5%;
-  right: 64%;
 
-  width: 80px;
-  height: 80px;
+.lg-5 {
+    position: absolute;
+    bottom: -5%;
+    right: 64%;
+    width: 80px;
+    height: 80px;
 }
 
 .lg-6 {
-  position: absolute;
-  bottom: 22%;
-  right: 87%;
-
-  width: 80px;
-  height: 80px;
+    position: absolute;
+    bottom: 22%;
+    right: 87%;
+    width: 80px;
+    height: 80px;
 }
 
 .lg-7 {
-  position: absolute;
-  bottom: 57%;
-  right: 86%;
-
-  width: 105px;
-  height: 105px;
+    position: absolute;
+    bottom: 57%;
+    right: 86%;
+    width: 105px;
+    height: 105px;
 }
 
 .lg-8 {
-  position: absolute;
-  bottom: 87%;
-  right: 60%;
-
-  width: 85px;
-  height: 85px;
+    position: absolute;
+    bottom: 87%;
+    right: 60%;
+    width: 85px;
+    height: 85px;
 }
 
 .lg-1,
@@ -120,61 +111,57 @@
 .lg-6,
 .lg-7,
 .lg-8 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: #00060b;
-  border: 0.5px solid $secondary-light;
-  border-radius: 50%;
-
-  transition: 0.3s ease;
-
-  &:hover {
-    background: #000b14;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #00060b;
+    border: 0.5px solid $secondary-light;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    animation: ri 65s linear infinite;
+    &:hover {
+        background: #000b14;
+    }
 }
 
 .md-1 {
-  top: 5%;
-  right: 4%;
+    top: 5%;
+    right: 4%;
 }
 
 .md-2 {
-  top: 75%;
-  right: 5%;
+    top: 75%;
+    right: 5%;
 }
 
 .md-3 {
-  top: 74%;
-  right: 74%;
+    top: 74%;
+    right: 74%;
 }
 
 .md-4 {
-  top: 5%;
-  right: 74%;
+    top: 5%;
+    right: 74%;
 }
+
 .md-1,
 .md-2,
 .md-3,
 .md-4 {
-  position: absolute;
-
-  width: 55px;
-  height: 55px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  background: #00060b;
-  border: 1px solid $secondary-light;
-  border-radius: 50%;
-
-  transition: 0.3s ease;
-
-  &:hover {
-    background: #000b14;
-  }
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #00060b;
+    border: 1px solid $secondary-light;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    animation: r 75s linear infinite;
+    &:hover {
+        background: #000b14;
+    }
 }

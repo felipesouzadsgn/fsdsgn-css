@@ -12,12 +12,14 @@
 
 /*======= CLASSES =======*/
 
+
 /*======= TYPOGRAPHY =======*/
 
 
 /*======= ANIMATION =======*/
 
 @import "animation/logo";
+@import "animation/hero";
 
 /*======= LAYOUT =======*/
 
@@ -32,4 +34,4 @@
 @import "components/job";
 @import "components/feedback";
 @import "components/about";
-
+@import "components/contact";

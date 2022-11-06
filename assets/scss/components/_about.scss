@@ -1,7 +1,7 @@
 .about {
     margin-top: 140px;
     width: 100%;
-    height: 50vh;
+    height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,173 +16,139 @@
         max-width: 514px;
         position: relative;
     }
-
     &__circle {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: absolute;
-
-      &-lg, &-md {
         display: flex;
         align-items: center;
         justify-content: center;
-      }
-
-      &-lg {
-        width: 1214px;
-        height: 1214px;
-        border-radius: 50%;
-        border: 1px solid red;
-        position: relative;
-
-        .c-1 {
-          width: 80px;
-          height: 80px;
-          border: 1px solid red;
-          position: absolute;
-          border-radius: 50%;
-          top: -3%;
+        position: absolute;
+        &-lg,
+        &-md {
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-
-        .c-2 {
-          width: 80px;
-          height: 80px;
-          border: 1px solid red;
-          position: absolute;
-          border-radius: 50%;
-          bottom: -3%;
+        &-lg {
+            width: 1214px;
+            height: 1214px;
+            border-radius: 50%;
+            border: 1px solid red;
+            position: relative;
+            animation: r 95s alternate infinite;
+            .c-1 {
+                width: 80px;
+                height: 80px;
+                top: -3%;
+            }
+            .c-2 {
+                width: 80px;
+                height: 80px;
+                bottom: -3%;
+            }
+            .c-3 {
+                width: 80px;
+                height: 80px;
+                right: -3%;
+            }
+            .c-4 {
+                width: 80px;
+                height: 80px;
+                left: -3%;
+            }
+            .c-5 {
+                width: 80px;
+                height: 80px;
+                left: 11%;
+                top: 11%;
+            }
+            .c-6 {
+                width: 80px;
+                height: 80px;
+                right: 11%;
+                top: 11%;
+            }
+            .c-7 {
+                width: 80px;
+                height: 80px;
+                right: 11%;
+                bottom: 11%;
+            }
+            .c-8 {
+                width: 80px;
+                height: 80px;
+                left: 11%;
+                bottom: 11%;
+            }
         }
-
-        .c-3 {
-          width: 80px;
-          height: 80px;
-          border: 1px solid red;
-          position: absolute;
-          border-radius: 50%;
-          right: -3%;
+        &-md {
+            position: relative;
+            width: 924px;
+            height: 924px;
+            border-radius: 50%;
+            border: 1px solid red;
+            .c-9 {
+                width: 80px;
+                height: 80px;
+                left: 11%;
+                bottom: 11%;
+            }
+            .c-10 {
+                width: 80px;
+                height: 80px;
+                right: 11%;
+                bottom: 11%;
+            }
+            .c-11 {
+                width: 80px;
+                height: 80px;
+                right: 11%;
+                top: 11%;
+            }
+            .c-16 {
+                width: 80px;
+                height: 80px;
+                left: 11%;
+                top: 11%;
+            }
         }
-
-        .c-4 {
-          width: 80px;
-          height: 80px;
-          border: 1px solid red;
-          position: absolute;
-          border-radius: 50%;
-          left: -3%;
+        &-sm {
+            position: relative;
+            width: 624px;
+            height: 624px;
+            border-radius: 50%;
+            border: 1px solid red;
         }
-
-        .c-5 {
-          width: 80px;
-          height: 80px;
-          border: 1px solid red;
-          position: absolute;
-          border-radius: 50%;
-          left: 11%;
-          top: 11%;
-        }
-
-        .c-6 {
-          width: 80px;
-          height: 80px;
-          border: 1px solid red;
-          position: absolute;
-          border-radius: 50%;
-          right: 11%;
-          top: 11%;
-        }
-
-        .c-7 {
-          width: 80px;
-          height: 80px;
-          border: 1px solid red;
-          position: absolute;
-          border-radius: 50%;
-          right: 11%;
-          bottom: 11%;
-        }
-
-        .c-8 {
-          width: 80px;
-          height: 80px;
-          border: 1px solid red;
-          position: absolute;
-          border-radius: 50%;
-          left: 11%;
-          bottom: 11%;
-        }
-      }
-
-      &-md {
-        position: relative;
-        width: 924px;
-        height: 924px;
-        border-radius: 50%;
-        border: 1px solid red;
-        .c-9 {
-          width: 80px;
-          height: 80px;
-          border: 1px solid red;
-          position: absolute;
-          border-radius: 50%;
-          left: 11%;
-          bottom: 11%;
-        }
-
-        .c-10 {
-          width: 80px;
-          height: 80px;
-          border: 1px solid red;
-          position: absolute;
-          border-radius: 50%;
-          right: 11%;
-          bottom: 11%;
-        }
-
-        .c-11 {
-          width: 80px;
-          height: 80px;
-          border: 1px solid red;
-          position: absolute;
-          border-radius: 50%;
-          right: 11%;
-          top: 11%;
-        }
-
-
-        .c-16 {
-          width: 80px;
-          height: 80px;
-          border: 1px solid red;
-          position: absolute;
-          border-radius: 50%;
-          left: 11%;
-          top: 11%;
-        }
-      }
-
-      &-sm {
-        position: relative;
-        width: 624px;
-        height: 624px;
-        border-radius: 50%;
-        border: 1px solid red;
-      }
     }
 }
 
-.c-1, .c-2, .c-3, .c-4, .c-9, .c-10, .c-16, .c-11 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  img {
-    width: 40px;
-  }
+.c-1,
+.c-2,
+.c-3,
+.c-4,
+.c-9,
+.c-10,
+.c-16,
+.c-11 {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: ri 95s alternate infinite;
+    img {
+        width: 40px;
+    }
 }
 
-.c-5, .c-6, .c-7, .c-8 {
-  img {
-    width: 100%;
-    height: 100%;
-  }
+.c-5,
+.c-6,
+.c-7,
+.c-8 {
+    position: absolute;
+    border-radius: 50%;
+    animation: ri 95s alternate infinite;
+    img {
+        width: 100%;
+        height: 100%;
+    }
 }

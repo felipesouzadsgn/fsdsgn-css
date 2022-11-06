@@ -1,84 +1,80 @@
 .hero {
-  &__social {
-
-    position: relative;
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    &-links {
-      position: absolute;
-      right: 0;
-      transform: translateX(50%);
+    &__social {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        &-links {
+            position: absolute;
+            right: 0;
+            transform: translateX(50%);
+        }
+        &-lg,
+        &-md {
+            border: 0.3px solid $secondary-light;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        &-lg {
+            width: 458px;
+            height: 458px;
+            animation: r 65s linear infinite;
+        }
+        &-md {
+            width: 258px;
+            height: 258px;
+        }
+        &-sm {
+            width: 70px;
+            height: 70px;
+            background: $primary-normal;
+            border-radius: 50%;
+        }
     }
-
-    &-lg, &-md {
-      border: 0.3px solid $secondary-light;
-      border-radius: 50%;
-
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-    }
-
-    &-lg {
-      width: 458px;
-      height: 458px;
-    }
-
-    &-md {
-      width: 258px;
-      height: 258px;
-    }
-
-    &-sm {
-      width: 70px;
-      height: 70px;
-      background: $primary-normal;
-      border-radius: 50%;
-    }
-  }
 }
+
 .l-1 {
-  top: -1%;
-  left: 25%;
+    top: -1%;
+    left: 25%;
 }
 
 .l-2 {
-  top: 26%;
-  left: -2%;
+    top: 26%;
+    left: -2%;
 }
 
 .l-3 {
-  top: 64%;
-  left: -2%;
+    top: 64%;
+    left: -2%;
 }
 
 .l-4 {
-  top: 90%;
-  left: 25%;
+    top: 90%;
+    left: 25%;
 }
 
 .l-5 {
-  top: 90%;
-  left: 66%;
+    top: 90%;
+    left: 66%;
 }
 
 .l-6 {
-  top: 64%;
-  left: 91%;
+    top: 64%;
+    left: 91%;
 }
 
 .l-7 {
-  top: 26%;
-  left: 91%;
+    top: 26%;
+    left: 91%;
 }
 
 .l-8 {
-  top: -1%;
-  left: 64%;
+    top: -1%;
+    left: 64%;
 }
 
 .l-1,
@@ -93,43 +89,40 @@
 .m-2,
 .m-3,
 .m-4 {
-  position: absolute;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 24px;
-  height: 24px;
-  padding: 24px;
-
-  font-size: 24px;
-
-  background: #00060b;
-  color: $secondary-light;
-  border-radius: 50%;
-  border: 0.5px solid $secondary-light;
-
-
-  &:hover {
-    background: #000b14;
-  }
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    padding: 24px;
+    font-size: 24px;
+    background: #00060b;
+    color: $secondary-light;
+    border-radius: 50%;
+    border: 0.5px solid $secondary-light;
+    animation: ri 65s linear infinite;
+    &:hover {
+        background: #000b14;
+    }
 }
 
 .m-1 {
-  top: 7%;
-  left: 4%;
+    top: 7%;
+    left: 4%;
 }
 
 .m-2 {
-  top: 7%;
-  left: 77%;
+    top: 7%;
+    left: 77%;
 }
+
 .m-3 {
-  top: 76%;
-  left: 4%;
+    top: 76%;
+    left: 4%;
 }
+
 .m-4 {
-  top: 74%;
-  left: 78%;
+    top: 74%;
+    left: 78%;
 }
