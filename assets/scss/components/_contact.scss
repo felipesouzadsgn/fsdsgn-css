@@ -4,5 +4,15 @@
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        margin-bottom: 148px;
+    }
+    &__link {
+        font-size: 32px;
+        margin-bottom: 88px;
+    }
+    &__btn {
+        padding: 16px 32px;
+        border: 1px solid #183558;
+        border-radius: 4px;
     }
 }
