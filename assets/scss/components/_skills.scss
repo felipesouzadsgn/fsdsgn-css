@@ -1,23 +1,19 @@
 .hero {
     &__skills {
-        position: relative;
-        width: 50%;
-        height: 100%;
-        display: flex;
-        align-items: center;
+        width: 100%;
+        position: absolute;
     }
     &__circle {
-        position: absolute;
+        position: relative;
         left: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         transform: translateX(-50%);
         &-lg,
         &-md {
             border: 0.3px solid $secondary-light;
             border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
             font-size: 14px;
         }
         &-lg {
@@ -26,11 +22,16 @@
             animation: r 65s linear infinite;
         }
         &-md {
+            position: absolute;
             width: 258px;
             height: 258px;
             animation: ri 35s linear infinite;
         }
         &-sm {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
             width: 70px;
             height: 70px;
             background: $primary-normal;

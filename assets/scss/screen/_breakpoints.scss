@@ -8,32 +8,36 @@
                 font-size: 24px;
             }
         }
+        &__skills {
+            width: 100%;
+        }
         &__circle {
             &-lg {
-                width: 400px;
-                height: 400px;
+                width: 350px;
+                height: 350px;
             }
             &-md {
-                width: 200px;
-                height: 200px;
+                width: 150px;
+                height: 150px;
             }
             &-sm {
-                width: 60px;
-                height: 60px;
+                width: 50px;
+                height: 50px;
             }
         }
         &__social {
+            width: 100%;
             &-lg {
-                width: 400px;
-                height: 400px;
+                width: 350px;
+                height: 350px;
             }
             &-md {
-                width: 200px;
-                height: 200px;
+                width: 150px;
+                height: 150px;
             }
             &-sm {
-                width: 60px;
-                height: 60px;
+                width: 50px;
+                height: 50px;
             }
         }
     }
@@ -78,6 +82,28 @@
 }
 
 @media screen and (max-width: 576px) {
+    .hero {
+        &__data {
+            &-title {
+                font-size: 32px;
+            }
+            &-description {
+                font-size: 20px;
+            }
+        }
+        &__social {
+            &-lg,
+            &-md {
+                display: none;
+            }
+        }
+        &__circle {
+            &-lg,
+            &-md {
+                display: none;
+            }
+        }
+    }
     .job,
     .job-reverse {
         flex-direction: column;
@@ -114,4 +140,8 @@
             right: 0;
         }
     }
+}
+
+.show {
+    display: block;
 }
