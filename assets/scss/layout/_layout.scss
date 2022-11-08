@@ -6,21 +6,22 @@
         margin-top: 140px;
         margin-bottom: 140px;
         max-width: 500px;
-
         &-category {
             font-size: 24px;
             font-weight: 400;
             text-transform: uppercase;
             color: $secondary-light;
         }
-
         &-title {
             font-size: 48px;
             font-weight: 400;
         }
-
         &-description {
             color: #ACB2BB;
         }
     }
+}
+
+.main {
+    overflow: hidden;
 }

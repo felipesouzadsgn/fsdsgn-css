@@ -96,11 +96,18 @@
             &-md {
                 display: none;
             }
+            &-sm {
+                z-index: 1000;
+            }
         }
         &__circle {
+            width: 464px;
             &-lg,
             &-md {
                 display: none;
+            }
+            &-sm {
+                z-index: 1000;
             }
         }
     }
@@ -140,8 +147,26 @@
             right: 0;
         }
     }
+    .show {
+        display: block;
+    }
 }
 
-.show {
-    display: block;
+@media screen and (max-width: 320px) {
+    .hero {
+        &__social {
+            &-lg {
+                width: 250px;
+                height: 250px;
+            }
+            &-md {
+                width: 150px;
+                height: 150px;
+            }
+            &-sm {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
 }

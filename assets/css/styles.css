@@ -129,14 +129,15 @@ a {
   color: #ACB2BB;
 }
 
+.main {
+  overflow: hidden;
+}
+
 /*======= COMPONENTS =======*/
-.header {
+.nav {
   width: 100%;
   position: fixed;
   z-index: 1000;
-}
-
-.nav {
   display: flex;
   height: 70px;
   justify-content: center;
@@ -152,6 +153,7 @@ a {
   text-transform: uppercase;
   font-size: 14px;
   font-family: "Courier New", Courier, monospace;
+  display: none;
 }
 .nav__logo-svg {
   width: 48px;
@@ -194,12 +196,10 @@ a {
 }
 
 .hero__skills {
-  width: 100%;
   position: absolute;
+  width: 100%;
 }
 .hero__circle {
-  position: relative;
-  left: 0%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -374,8 +374,6 @@ a {
   position: absolute;
 }
 .hero__social-links {
-  position: relative;
-  right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -982,8 +980,17 @@ a {
   .hero__social-lg, .hero__social-md {
     display: none;
   }
+  .hero__social-sm {
+    z-index: 1000;
+  }
+  .hero__circle {
+    width: 464px;
+  }
   .hero__circle-lg, .hero__circle-md {
     display: none;
+  }
+  .hero__circle-sm {
+    z-index: 1000;
   }
   .job,
 .job-reverse {
@@ -1014,9 +1021,23 @@ a {
     width: 100%;
     right: 0;
   }
+  .show {
+    display: block;
+  }
 }
-.show {
-  display: block;
+@media screen and (max-width: 320px) {
+  .hero__social-lg {
+    width: 250px;
+    height: 250px;
+  }
+  .hero__social-md {
+    width: 150px;
+    height: 150px;
+  }
+  .hero__social-sm {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
