@@ -234,6 +234,14 @@ a {
   height: 70px;
   background: #1B69D2;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__circle-sm svg {
+  position: absolute;
+  width: 90px;
+  animation: r 65s linear infinite;
 }
 
 .lg-1 {
@@ -411,6 +419,14 @@ a {
   height: 70px;
   background: #1B69D2;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__social-sm svg {
+  position: absolute;
+  width: 90px;
+  animation: r 65s linear infinite;
 }
 
 .l-1 {
