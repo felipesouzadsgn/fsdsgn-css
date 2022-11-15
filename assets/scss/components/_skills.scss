@@ -23,7 +23,7 @@
             position: absolute;
             width: 258px;
             height: 258px;
-            animation: ri 35s linear infinite;
+            animation: ri 65s linear infinite;
         }
         &-sm {
             position: absolute;
@@ -159,7 +159,7 @@
     border: 1px solid $secondary-light;
     border-radius: 50%;
     transition: 0.3s ease;
-    animation: r 75s linear infinite;
+    animation: r 65s linear infinite;
     &:hover {
         background: #000b14;
     }

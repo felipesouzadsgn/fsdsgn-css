@@ -26,3 +26,12 @@ if (heroSocialSm) {
         heroSocialMd.classList.toggle("show")
     })
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const tl = gsap.timeline();
+
+    tl.fromTo(
+        ".loading", { duration: 3, height: "100vh", ease: "expo.out" }, { duration: 0.7, height: "-100vh", delay: 10, opacity: 0 }
+    )
+
+})
