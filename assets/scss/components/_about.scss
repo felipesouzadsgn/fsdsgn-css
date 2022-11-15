@@ -28,8 +28,8 @@
             justify-content: center;
         }
         &-lg {
-            width: 950px;
-            height: 950px;
+            width: 990px;
+            height: 990px;
             border-radius: 50%;
             border: 1px solid #183558;
             position: relative;
@@ -81,8 +81,8 @@
         }
         &-md {
             position: relative;
-            width: 650px;
-            height: 650px;
+            width: 690px;
+            height: 690px;
             border-radius: 50%;
             border: 1px solid #183558;
             .c-9 {
@@ -133,6 +133,18 @@
                 left: 42%;
                 top: 94%;
             }
+            .c-17 {
+                width: 80px;
+                height: 80px;
+                right: -6%;
+                top: 43%;
+            }
+            .c-18 {
+                width: 80px;
+                height: 80px;
+                left: -6%;
+                top: 43%;
+            }
         }
     }
 }
@@ -148,10 +160,13 @@
 .c-13,
 .c-14,
 .c-15,
-.c-16 {
+.c-16,
+.c-17,
+.c-18 {
     position: absolute;
     border-radius: 50%;
     border: 1px solid #183558;
+    background-color: #00060B;
     display: flex;
     justify-content: center;
     align-items: center;
