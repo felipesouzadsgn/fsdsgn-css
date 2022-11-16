@@ -1,29 +1,39 @@
 SVGInject(document.querySelectorAll("img.svg"));
 
-const heroCircleMd = document.querySelector(".hero__circle-md")
-const heroCircleLg = document.querySelector(".hero__circle-lg")
-const heroCircleSm = document.querySelector(".hero__circle-sm")
 
-const heroSocialSm = document.querySelector(".hero__social-sm")
-const heroSocialMd = document.querySelector(".hero__social-md")
-const heroSocialLg = document.querySelector(".hero__social-lg")
+const heroCircleMd = document.querySelector(".skills__circle-md"),
+    heroCircleLg = document.querySelector(".skills__circle-lg"),
+    heroCircleSm = document.querySelector(".skills__circle-sm")
+
+const heroSocialSm = document.querySelector(".social-sm"),
+    heroSocialMd = document.querySelector(".social-md"),
+    heroSocialLg = document.querySelector(".social-lg")
+
+
+const tapHereLeft = document.querySelector(".tap-here-left")
+const tapHereRight = document.querySelector(".tap-here-right")
+
 
 if (heroCircleSm) {
     heroCircleSm.addEventListener("click", () => {
+        tapHereRight.classList.remove("hidden")
         heroSocialLg.classList.remove("show")
         heroSocialMd.classList.remove("show")
         heroCircleLg.classList.toggle("show")
         heroCircleMd.classList.toggle("show")
+        tapHereLeft.classList.toggle("hidden")
     })
 }
 
 
 if (heroSocialSm) {
     heroSocialSm.addEventListener("click", () => {
+        tapHereLeft.classList.remove("hidden")
         heroCircleLg.classList.remove("show")
         heroCircleMd.classList.remove("show")
         heroSocialLg.classList.toggle("show")
         heroSocialMd.classList.toggle("show")
+        tapHereRight.classList.toggle("hidden")
     })
 }
 

@@ -1,50 +1,39 @@
-.hero {
-    &__social {
-        width: 100%;
+.social {
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(50%);
+    &-lg,
+    &-md {
+        border: 0.3px solid $secondary-light;
+        border-radius: 50%;
+    }
+    &-lg {
+        width: 458px;
+        height: 458px;
+        animation: r 65s linear infinite;
+    }
+    &-md {
         position: absolute;
-        &-links {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transform: translateX(50%);
-        }
-        &-lg,
-        &-md {
-            border: 0.3px solid $secondary-light;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-        }
-        &-lg {
-            width: 458px;
-            height: 458px;
-            animation: r 65s linear infinite;
-        }
-        &-md {
-            position: absolute;
-            width: 258px;
-            height: 258px;
-            animation: r 65s linear infinite;
-        }
-        &-sm {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            width: 70px;
-            height: 70px;
-            background: $primary-normal;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            svg {
-                position: absolute;
-                width: 90px;
-                animation: r 65s linear infinite;
-            }
+        width: 258px;
+        height: 258px;
+        animation: r 65s linear infinite;
+        z-index: 1;
+    }
+    &-sm {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 70px;
+        height: 70px;
+        background: $primary-normal;
+        border-radius: 50%;
+        z-index: 2;
+        img {
+            display: none;
         }
     }
 }
