@@ -825,6 +825,10 @@ a {
   top: 43%;
 }
 
+.c-3 {
+  width: 100px;
+}
+
 .c-1,
 .c-2,
 .c-3,
@@ -891,6 +895,10 @@ a {
   height: 100%;
 }
 
+.c-3 img {
+  padding: 8px;
+}
+
 .contact__content {
   align-items: center;
   display: flex;
@@ -940,6 +948,116 @@ a {
 }
 .loading__img {
   width: 80px;
+}
+
+.project {
+  width: 100%;
+  text-align: center;
+}
+.project__data {
+  margin-top: -100px;
+  margin-bottom: 56px;
+  position: relative;
+  z-index: 1000;
+  text-align: center;
+}
+.project__data-logo {
+  width: 100px;
+  display: inline-block;
+}
+.project__data-title {
+  margin-top: 36px;
+  font-size: 3rem;
+  font-weight: normal;
+}
+.project__data-description {
+  margin-top: 14px;
+}
+.project__btns {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  column-gap: 36px;
+}
+.project__btns a {
+  color: #1B69D2;
+}
+.project__subtitle {
+  color: #1B69D2;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.project__title {
+  margin-top: 4px;
+  font-size: 32px;
+  font-weight: normal;
+}
+.project__banner {
+  width: 100%;
+  height: 440px;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.project__banner::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  content: "";
+  background: linear-gradient(180deg, rgba(0, 0, 10, 0) 0%, #00060B 88.33%);
+}
+.project__container {
+  margin: 0 auto;
+  max-width: 1214px;
+  padding: 16px 32px;
+}
+.project__infos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  text-align: left;
+  gap: 2rem;
+  margin: 164px 0;
+}
+.project__info {
+  max-width: 300px;
+}
+.project__info-title {
+  font-weight: normal;
+  color: #cccccc;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.project__info-description {
+  color: #ddd;
+}
+.project__grid {
+  margin-top: 48px;
+  margin-bottom: 90px;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+.project__grid-item {
+  flex: 1;
+  height: auto;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.project__grid-ui {
+  flex-direction: column;
+  margin-bottom: 114px;
+  margin-top: 48px;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+.project__grid-ui-item {
+  flex: 1;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 /*======= SCREEN =======*/
@@ -1031,6 +1149,9 @@ a {
   }
   .section__data-description {
     font-size: 14px;
+  }
+  .project__infos {
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media screen and (max-width: 576px) {

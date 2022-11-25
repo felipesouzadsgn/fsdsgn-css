@@ -103,9 +103,17 @@
             }
         }
     }
+    .project {
+        &__infos {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
 }
 
 @media screen and (max-width: 576px) {
+    .project {
+        &__infos {}
+    }
     .social {
         &-lg {
             backdrop-filter: blur(3.5px);
