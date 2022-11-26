@@ -2,7 +2,6 @@
     width: 100%;
     text-align: center;
     &__data {
-        margin-top: -100px;
         margin-bottom: 56px;
         position: relative;
         z-index: 1000;
@@ -72,12 +71,26 @@
         max-width: 300px;
         &-title {
             font-weight: normal;
-            color: #cccccc;
+            color: #ccc;
             text-transform: uppercase;
             margin-bottom: 14px;
         }
         &-description {
             color: #ddd;
+        }
+    }
+    &__grid-row {
+        margin-top: 48px;
+        margin-bottom: 90px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        &-item {
+            height: auto;
+            border-radius: 4px;
+            overflow: hidden;
+            flex: 1;
         }
     }
     &__grid {

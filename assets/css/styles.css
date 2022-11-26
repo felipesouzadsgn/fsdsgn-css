@@ -955,7 +955,6 @@ a {
   text-align: center;
 }
 .project__data {
-  margin-top: -100px;
   margin-bottom: 56px;
   position: relative;
   z-index: 1000;
@@ -1026,12 +1025,26 @@ a {
 }
 .project__info-title {
   font-weight: normal;
-  color: #cccccc;
+  color: #ccc;
   text-transform: uppercase;
   margin-bottom: 14px;
 }
 .project__info-description {
   color: #ddd;
+}
+.project__grid-row {
+  margin-top: 48px;
+  margin-bottom: 90px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.project__grid-row-item {
+  height: auto;
+  border-radius: 4px;
+  overflow: hidden;
+  flex: 1;
 }
 .project__grid {
   margin-top: 48px;
